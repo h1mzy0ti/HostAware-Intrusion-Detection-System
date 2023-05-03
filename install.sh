@@ -1,4 +1,6 @@
-echo -e "
+RED="\e[31m"
+ENDCOLOR="\e[0m"
+echo -e "${RED}
 
  ██░ ██  ▒█████    ██████ ▄▄▄█████▓    ▄▄▄       █     █░ ▄▄▄       ██▀███  ▓█████ 
 ▓██░ ██▒▒██▒  ██▒▒██    ▒ ▓  ██▒ ▓▒   ▒████▄    ▓█░ █ ░█░▒████▄    ▓██ ▒ ██▒▓█   ▀ 
@@ -10,7 +12,7 @@ echo -e "
  ░  ░░ ░░ ░ ░ ▒  ░  ░  ░    ░           ░   ▒     ░   ░    ░   ▒     ░░   ░    ░   
  ░  ░  ░    ░ ░        ░                    ░  ░    ░          ░  ░   ░        ░  ░
 						                                    
-                                                            Security at it's best."
+                                                            Security at it's best.${ENDCOLOR}"
 
 echo  "INSTALLING HostAware.....";
 echo  "Installing Requirments.....";
